@@ -1,0 +1,124 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+.blue-m{
+    background-color: blue;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.google{
+    font-size: 65px;
+    font-weight: 800;
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+.item:nth-child(1){
+    color: #4285F4;
+}
+.item:nth-child(2){
+    color: #EA4335;
+}
+.item:nth-child(3){
+    color: #FBBC05;
+}
+.item:nth-child(4){
+    color: #4285F4;
+}
+.item:nth-child(5){
+    color: #34A853;
+}
+.item:nth-child(6){
+    color: #EA4335;
+}
+.input{
+    width: 600px;
+    border:1px solid #E9E9EA ;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    box-shadow: 1px 1px 3px #333;
+}
+.general{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.mic-cam{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.buttons{
+    margin-top: 15px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+button{
+    border: none;
+    padding: 7px;
+    background-color: #F8F9FA;
+}
+
+.base{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-left: 10px;
+}
+.naija{
+    display: flex;
+    align-items: start;
+    width: 100%;
+}
+.obob{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.about{
+    display: flex;
+    gap: 25px;
+}
+.about > a{
+    text-decoration: none;
+    color: black;
+}
